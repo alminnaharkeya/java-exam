@@ -13,7 +13,7 @@ const displayData = (data) => {
     data.forEach ((posts) => {
         const postDiv = document.createElement("div");
         postDiv.innerHTML = `
-            <div class="card border border-success p-2 mb-2 " style="width: 16rem;">
+            <div class="card border border-success p-2 mb-2 " style="width: 12rem;">
         <img src="image/keya2.webp" class="card-img-top" alt="...">
         <div class="card-body fw-semibold fst-italic">
         <p class="card-text ">${posts.title}</p>
